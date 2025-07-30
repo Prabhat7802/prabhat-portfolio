@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  background-color: #0f0f0f;
+  box-shadow: 0 2px 20px rgba(0, 255, 255, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #00ffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #00ffff;
+  transition: width 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #00ffff;
+}
+
+.navbar-links li a:hover::after {
+  width: 100%;
+}
