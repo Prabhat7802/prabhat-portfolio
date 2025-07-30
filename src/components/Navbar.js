@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">Prabhat.</div>
-      <ul className="navbar-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-         <li><a href="#experience">Experience</a></li>
 
-        {/* Experience will be added later */}
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
+        <a href="#home" onClick={toggleMenu}>Home</a>
+        <a href="#projects" onClick={toggleMenu}>Projects</a>
+        <a href="#skills" onClick={toggleMenu}>Skills</a>
+        <a href="#experience" onClick={toggleMenu}>Experience</a>
+        <a href="#contact" onClick={toggleMenu}>Contact</a>
+      </div>
+
+      <div className="hamburger" onClick={toggleMenu}>
+        ☰
+      </div>
     </nav>
   );
 };
