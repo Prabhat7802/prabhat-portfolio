@@ -16,8 +16,8 @@ function About() {
         </div>
         <div className="col-md-8">
           <p>
-            I am a Full Stack Java Developer with 1.9 years of experience at Capgemini.
-            I’ve worked on backend using Spring Boot and frontend using React and Angular.
+            I am a Full Stack Developer with 2+ years of experience at Capgemini.
+            I’ve worked on backend using Spring Boot, Microservices, Hibernate, RestApis and frontend using React and Angular.
           </p>
           <p>
             I’m currently seeking new job opportunities and excited to contribute my skills to impactful projects.

@@ -13,6 +13,7 @@ const Projects = () => {
         "react",
         "mysql",
         "oracle",
+        "Angular",
       ],
     },
     {

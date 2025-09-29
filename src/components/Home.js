@@ -15,8 +15,9 @@ function Home() {
         <h1>Prabhat Garg</h1>
         <h4>And I'm a <span className="highlight">Full Stack Developer</span></h4>
         <p>
-          I have 2 years of experience at Capgemini as a Full Stack Java Developer. I specialize in
-          Java, Spring Boot, React.js, Angular, and database technologies like MySQL and Oracle.
+          Results-driven Software Engineer with 2+ years of experience in full-stack development,
+          cloud-native applications, and AI-powered solutions. Proficient in Java, Spring Boot, React, Angular
+          Python, and SQL, with hands-on experience in AWS, CI/CD pipelines, and microservices architecture. Adept at debugging, performance optimization, and collaborating in Agile environments. Passionate about building scalable systems and integrating AI for business impact.
         </p>
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/prabhat-garg-028457238/" target="_blank" rel="noreferrer">
@@ -33,8 +34,7 @@ function Home() {
           className="download-btn"
           onClick={() =>
             window.open(
-              'https://prabhat7802.hackerresume.io/7e8a6cd6-66ef-4e82-819d-158a57e57e23',
-              '_blank'
+              'https://drive.google.com/file/d/1CvNW6xT3fXvmZE-RPC-CHBhTleXNb4h_/view?usp=drivesdk'
             )
           }
         >
