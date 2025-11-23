@@ -15,9 +15,12 @@ function Home() {
         <h1>Prabhat Garg</h1>
         <h4>And I'm a <span className="highlight">Full Stack Developer</span></h4>
         <p>
-          Results-driven Software Engineer with 2+ years of experience in full-stack development,
-          cloud-native applications, and AI-powered solutions. Proficient in Java, Spring Boot, React, Angular
-          Python, and SQL, with hands-on experience in AWS, CI/CD pipelines, and microservices architecture. Adept at debugging, performance optimization, and collaborating in Agile environments. Passionate about building scalable systems and integrating AI for business impact.
+         Results-oriented Software Engineer with 2.6+ years of experience architecting scalable microservices and high
+        performance web applications. Expert in Java Spring Boot, AWS Cloud, and React/Angular ecosystems.
+         Proven track record of optimizing database performance by 25% and automating deployment pipelines to reduce
+         cycle time by 40%. Adept at integrating AI/NLP models into enterprise solutions. Strong focus on Data
+         Structures, System Design, and Low-Latency Architecture, seeking to leverage full-stack expertise in a
+         Tier-1 engineering environment
         </p>
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/prabhat-garg-028457238/" target="_blank" rel="noreferrer">
@@ -34,7 +37,7 @@ function Home() {
           className="download-btn"
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1CvNW6xT3fXvmZE-RPC-CHBhTleXNb4h_/view?usp=drivesdk'
+              'https://drive.google.com/file/d/1blZ5e_4XX2Sy7iJAieY9uZMKJW-z98Vv/view?usp=drivesdk'
             )
           }
         >

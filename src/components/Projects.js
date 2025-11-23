@@ -7,25 +7,13 @@ const Projects = () => {
       title: "CNH- Industrial",
       description:
         "I am working on the CNHi project, providing application and maintenance support, ensuring the smooth operation and enhancement of critical systems. In my role, I collaborate with cross-functional teams to understand client requirements, develop efficient code, and ensure seamless integration of technology to deliver high-quality software products.",
-      technologies: [
-        "java",
-        "spring",
-        "react",
-        "mysql",
-        "oracle",
-        "Angular",
-      ],
+      technologies: ["java", "spring", "react", "mysql", "oracle", "Angular"],
     },
     {
       title: "Portfolio Website",
       description:
         "Personal portfolio built using React.js, Javascript, HTML/CSS showcasing my experience, projects, and skills with a modern UI.",
-      technologies: [
-        "react",
-        "javascript",
-        "html5",
-        "css3",
-      ],
+      technologies: ["react", "javascript", "html5", "css3"],
     },
     {
       title: "Online Hotel Rooms Booking Website",
@@ -44,13 +32,13 @@ const Projects = () => {
       title: "Bookstore Management System",
       description:
         "Online Bookstore Web Application where users can browse and purchase books, and admins manage inventory. Built using Java, Spring Boot, Spring Security, Thymeleaf, Bootstrap, and MySQL.",
-      technologies: [
-        "java",
-        "spring",
-        "mysql",
-        "thymeleaf",
-        "bootstrap",
-      ],
+      technologies: ["java", "spring", "mysql", "thymeleaf", "bootstrap"],
+    },
+    {
+      title: "Smart Job Application Automation Agent",
+      description:
+        "Developed an intelligent automation bot to simulate human interaction for job applications, utilizing Playwright for efficient DOM manipulation and workflow execution. Impact: Automated the application process for 100+ daily listings with 98% success rate, implementing randomized delays to mimic human behavior and bypass bot detection.",
+      technologies: ["python", "playwright", "dotenv"],
     },
   ];
 
